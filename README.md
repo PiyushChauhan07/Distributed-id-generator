@@ -1,22 +1,12 @@
-# My Python Project
+Twitter Snowflake ID configuration
 
-## Setup
-1. Create virtual environment
-2. Activate it
-3. Install dependencies:
-   pip install -r requirements.txt
-
-## Run
-python main.py
-
-
-<!-- Twitter Snowflake ID configuration
 A classic Twitter Snowflake ID is a 64‑bit signed integer with this layout (from most significant bit to least):
 1 bit – sign bit
 Always 0 (keeps IDs positive).
 41 bits – timestamp
 Milliseconds since a custom epoch (e.g., Twitter used 2010-11-04 UTC).
 Gives about 69 years of unique timestamps.
+
 10 bits – node identifier (Twitter’s original split)
 5 bits – datacenter ID (0–31)
 5 bits – worker/machine ID (0–31)
