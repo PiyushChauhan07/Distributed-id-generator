@@ -14,4 +14,4 @@ Total 2¹⁰ = 1024 unique workers (across all datacenters).
 12 bits – sequence number
 Per-node counter within the same millisecond.
 Allows 2¹² = 4096 unique IDs per node per millisecond.
-So overall: 1 + 41 + 5 + 5 + 12 = 64 bits, with the sign bit fixed to 0 in practice. -->
+So overall: 1 + 41 + 5 + 5 + 12 = 64 bits, with the sign bit fixed to 0 in practice.
